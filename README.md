@@ -1,30 +1,52 @@
-# Notizblock (Python-Projekt)
+# Notizblock 📒
 
-Ein einfaches, textbasiertes Notizblock-Programm in Python.  
-Benutzer können Notizen erstellen, anzeigen und löschen.  
-Die Notizen werden in einer lokalen Datei `notes.txt` gespeichert.
+Ein einfaches, aber vielseitiges Notizblock-Projekt in Python – ideal zum Lernen und als Portfolio-Projekt.
 
-## Funktionen
+## 🔧 Projektbeschreibung
+Dieses Projekt zeigt mehrere Wege, wie man eine Notizen-App in Python umsetzen kann: von der simplen Konsolenanwendung bis hin zur grafischen Oberfläche mit Datenbankspeicherung (SQLite).
 
-- 📄 Notizen anzeigen
-- ➕ Neue Notiz hinzufügen
-- ❌ Notiz löschen
-- 💾 Speicherung in Datei
+---
 
-## Technologien
+## 📁 Versionen
+
+### `notizblock.py`
+- Einfache textbasierte Version (Kommandozeile)
+- Notizen werden in einer Textdatei (`notes.txt`) gespeichert
+
+### `notizblock_sqlite_gui_grid.py` ✅
+- Erweiterte GUI mit Grid-Layout
+- Doppelpane-Aufbau: Liste links, Editor rechts
+- Doppelklick auf Notiz lädt Inhalt
+- **Speichern-Button bleibt immer sichtbar**, auch bei kleiner Fenstergröße
+
+---
+
+## 📦 Verwendete Technologien
 
 - Python 3
-- Standardbibliothek (`os`, `input`, `file handling`)
+- Tkinter (für GUI)
+- SQLite (für Datenbank)
+- File I/O (für einfache Speicherung)
 
-## Nutzung
+---
 
-1. Python 3 installieren
-2. Projektdateien klonen oder herunterladen
-3. Ausführen:
+## 🧠 Warum dieses Projekt?
+
+- Zeigt verschiedene Stufen der Software-Entwicklung
+- Ideal zum Üben von GUI, Datenbanken und Dateiverarbeitung
+- Einfach erweiterbar mit Funktionen wie: Suche, Kategorien, Cloud-Sync, etc.
+
+---
+
+## 🚀 Ausführen
+
+1. Stelle sicher, dass Python 3 installiert ist
+2. Lade das gewünschte Skript herunter
+3. Starte mit:
    ```
-   python notizblock.py
+   python notizblock_sqlite_gui_grid.py
    ```
 
-## Hinweis
+---
 
-Dies ist ein einfaches Lernprojekt und kann leicht um Funktionen wie GUI (Tkinter) oder Datenbank erweitert werden.
+Viel Spaß beim Programmieren! 😊
